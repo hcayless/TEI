@@ -64,6 +64,7 @@
   <remarks versionDate="2005-01-14" xml:lang="en">
     <p>The <gi>ab</gi> element may be used at the encoder's discretion to mark any component-level elements in a text for which no other more specific appropriate markup is defined.</p>
   </remarks>
+  <remarks versionDate="2022-09-16" xml:lang="it"><p>L'elemento <gi>ab</gi> può essere utilizzato a discrezione del codificatore per contrassegnare qualsiasi elemento a livello di componente in un testo per il quale non è definito un altro markup appropriato più specifico.</p></remarks>
   <remarks versionDate="2022-05-02" xml:lang="es"><p>El elemento <gi>ab</gi> se puede utilizar a discreción del codificador para marcar cualquier elemento a nivel de componente en un texto para el que no se haya definido ningún otro marcado apropiado más específico.</p></remarks>
   <remarks xml:lang="fr" versionDate="2009-10-06">
     <p>L'élément <gi>ab</gi> peut être utilisé à la discrétion de l'encodeur pour marquer dans un texte tout élément de niveau composant pour lequel aucune méthode appropriée de balisage plus spécifique n'est définie.</p>
