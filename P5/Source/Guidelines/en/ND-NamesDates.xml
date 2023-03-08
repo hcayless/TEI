@@ -1660,7 +1660,7 @@ exemplifying here too? -->
             <item> the OpenGIS Geography Markup Language (GML) being defined by the OGC<note place="bottom">The OGC is an
                 international voluntary consensus standards organization whose members maintain the Geography Markup Language
                 standard. The OGC coordinates with the ISO TC 211 standards organization to maintain consistency between OGC and
-                ISO standards work. GML is also an ISO standard (ISO 19136:2007).</note>
+                ISO standards work. GML is also an ISO standard (<ref target="#ISO-19136">ISO 19136:2007</ref>).</note>
             </item>
             <item> the Keyhole Markup Language (KML) used by Google Maps<note place="bottom">See <ptr
                   target="https://developers.google.com/kml/documentation/"/></note>
@@ -2337,7 +2337,7 @@ occupation and residence.</p>
               <objectName type="main">Excalibur</objectName>
               <objectName type="alt">Caliburn</objectName>
               <objectName xml:lang="cy">Caledfwlch</objectName>
-              <objectName xml:lang="cornu">Calesvol</objectName>
+              <objectName xml:lang="cnx">Calesvol</objectName>
               <objectName xml:lang="br">Kaledvoulc'h</objectName>
               <objectName xml:lang="la">Caliburnus</objectName>
               <country>Wales</country>
@@ -2416,7 +2416,7 @@ occupation and residence.</p>
                   composed of two alloys of gold with a lighter 18.4 karat shade being used for the face and neck while a heavier
                   22.5 karat gold was used for the rest of the mask.</p>
                 <p>In the mask Tutankhamun wears a nemes headcloth which has the royal insignia of a cobra (Wadjet) and vulture
-                  (Nekhbet) on it. These are thought respectively to symbolise Tutankhamun's rule of both Lower Egypt and Upper
+                  (Nekhbet) on it. These are thought respectively to symbolize Tutankhamun's rule of both Lower Egypt and Upper
                   Egypt. His ears are pierced for earrings. The mask has rich inlays of coloured glass and gemstones, including
                   lapis lazuli surrounding the eye and eyebrows, quartz for the eyes, obsidian for the pupils. The broad collar is
                   made up of carnelian, feldspar, turquoise, amazonite, faience and other stones.</p>
@@ -2878,8 +2878,8 @@ Journal r&#xE9;dig&#xE9; par Camille Desmoulins</title>,
       </div>
       <div type="div2" xml:id="NDDATEISO">
         <head>More Expressive Normalizations</head>
-        <p>The attributes for normalization of dates and times so far described use a standard format defined by <title
-            ref="#XSD2">XML Schema Part 2: Datatypes Second Edition</title>. This format is widely accepted and has significant
+        <p>The attributes for normalization of dates and times so far described use a standard format defined by <ref
+          target="#XSD2">XML Schema Part 2: Datatypes Second Edition</ref>. This format is widely accepted and has significant
           software support. It is essentially a profile of ISO 8601 <title>Data elements and interchange formats — Information
             interchange — Representation of dates and times</title>. The full ISO standard provides formats not available in the
           W3C recommendation, for example, the capability to refer to a date by its ordinal date or week date, or to refer to a

@@ -185,11 +185,11 @@ $Id$
         qualsiasi valore legale per l'annotazione</desc>
       <datatype><dataRef key="teidata.pattern"/></datatype>
       <remarks xml:lang="en" versionDate="2013-12-21"><p>The value must be a valid regular expression per the World Wide Web Consortium's
-      <title ref="#XSD2">XML Schema Part 2: Datatypes Second Edition</title>,
-      <ref target="https://www.w3.org/TR/xmlschema-2/#regexs">Appendix F</ref>
+        <ref target="#XSD2">XML Schema Part 2: Datatypes Second Edition</ref>,
+      Appendix F.
 </p></remarks>
 <remarks xml:lang="fr" versionDate="2013-12-21"><p>La valeur doit être une expression régulière valide pour le Consortium
-        du World Wide Web <title ref="#XSD2">XML Schema Part 2: Datatypes Second Edition</title>, <ref target="https://www.w3.org/TR/xmlschema-2/#regexs">Appendix F</ref></p></remarks>
+  du World Wide Web <ref target="#XSD2">XML Schema Part 2: Datatypes Second Edition</ref>, Appendix F.</p></remarks>
          
     </attDef>
   </attList>
@@ -249,7 +249,7 @@ $Id$
   </remarks>
   <remarks xml:lang="ja" versionDate="2008-04-05">
     <p rend="dataDesc"> 符号化する人は、当該表記法が形式的・非形式的に定義するかを選択する ことができる。しかし、この2つを混ぜて使うことはないだろう。つまり、
-        要素<gi>metDecl</gi>が、一連の要素<gi>metSym</gi>，または一連の段落
+        要素<gi>metDecl</gi>が、一連の要素<gi>metSym</gi>、または一連の段落
       や他の構成要素をとるかもしれない。属性<att>pattern</att>が定義され、 かつ要素<gi>metSym</gi>が使われている場合には、属性
       <att>pattern</att>中にあるコードは全て記録されるべきである。 </p>
     <p> 当該要素は、韻文モジュールを使う場合にのみ、ヘダー中で使うことがで きる。 </p>
