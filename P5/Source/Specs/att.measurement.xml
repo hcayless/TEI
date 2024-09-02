@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-Copyright TEI Consortium. 
-Dual-licensed under CC-by and BSD2 licences 
-See the file COPYING.txt for details
-$Date$
-$Id$
--->
+<!-- © TEI Consortium. Dual-licensed under CC-by and BSD2 licenses; see the file COPYING.txt for details. -->
 <?xml-model href="https://jenkins.tei-c.org/job/TEIP5-dev/lastSuccessfulBuild/artifact/P5/release/xml/tei/odd/p5.nvdl" type="application/xml" schematypens="http://purl.oclc.org/dsdl/nvdl/ns/structure/1.0"?>
 <classSpec xmlns="http://www.tei-c.org/ns/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" module="tei" type="atts" xml:id="MEASUREMENT" ident="att.measurement">
   <desc versionDate="2006-01-05" xml:lang="en">provides attributes to represent a regularized or normalized measurement.</desc>
   <desc versionDate="2007-12-20" xml:lang="ko">정상화 또는 규격화된 측정 방식을 표상하는 속성을 제시한다.</desc>
   <desc versionDate="2007-05-02" xml:lang="zh-TW">提供屬性，代表一般化或規格化的度量。</desc>
-  <desc versionDate="2008-04-05" xml:lang="ja">正規化単位を表す属性を示す。
-</desc>
+  <desc versionDate="2008-04-05" xml:lang="ja">正規化単位を表す属性を示す。</desc>
   <desc versionDate="2007-06-12" xml:lang="fr">donne des attributs pour représenter une mesure
       régularisée ou normalisée.</desc>
   <desc versionDate="2007-05-04" xml:lang="es">proporciona atributos que representen una medición regularizada o normalizada.</desc>
@@ -47,7 +40,7 @@ $Id$
           <gloss versionDate="2007-06-12" xml:lang="fr">mètre</gloss>
           <gloss versionDate="2007-11-06" xml:lang="it">metro</gloss>
 	  <gloss versionDate="2007-05-04" xml:lang="es">metro</gloss>
-          <gloss versionDate="2022-05-12" xml:lang="ja">metro</gloss>
+          <gloss versionDate="2023-08-24" xml:lang="ja">メートル</gloss>
           <desc versionDate="2005-11-18" xml:lang="en">SI base unit of length</desc>
           <desc versionDate="2007-12-20" xml:lang="ko">길이의 SI 기본 단위</desc>
           <desc versionDate="2007-05-02" xml:lang="zh-TW">SI基礎長度單位</desc>
@@ -196,7 +189,7 @@ $Id$
           <gloss versionDate="2007-05-02" xml:lang="zh-TW">公頃</gloss>
           <gloss versionDate="2007-11-06" xml:lang="it">ettaro</gloss>
           <gloss versionDate="2007-05-04" xml:lang="es">hectárea</gloss>
-	<gloss versionDate="2022-05-12" xml:lang="ja">ヘクタール</gloss>
+	  <gloss versionDate="2022-05-12" xml:lang="ja">ヘクタール</gloss>
           <desc versionDate="2005-11-18" xml:lang="en">1 hm²</desc>
           <desc versionDate="2008-04-06" xml:lang="es">1² hm</desc>
           <desc versionDate="2008-04-05" xml:lang="ja">ヘクタール。広さを示す。</desc>
@@ -208,8 +201,8 @@ $Id$
           <gloss versionDate="2007-12-20" xml:lang="ko">옹스트롱</gloss>
           <gloss versionDate="2007-05-02" xml:lang="zh-TW">埃格斯特朗 (單位)</gloss>
           <gloss versionDate="2007-05-04" xml:lang="es">angstrom</gloss>
-          <desc versionDate="2005-11-18" xml:lang="en">10⁻¹⁰ m</desc>
-		<gloss versionDate="2022-05-12" xml:lang="ja">オングストローム</gloss>
+          <gloss versionDate="2022-05-12" xml:lang="ja">オングストローム</gloss>
+	  <desc versionDate="2005-11-18" xml:lang="en">10⁻¹⁰ m</desc>
           <desc versionDate="2007-05-02" xml:lang="zh-TW">10⁻¹⁰ 公尺</desc>
           <desc versionDate="2008-04-05" xml:lang="ja">オングストローム。長さの単位。</desc>
           <desc versionDate="2007-01-21" xml:lang="it">10⁻¹⁰ m</desc>
@@ -239,7 +232,7 @@ $Id$
           <desc versionDate="2007-12-20" xml:lang="ko">아래 언급 참조</desc>
           <desc versionDate="2007-05-02" xml:lang="zh-TW">分貝</desc>
           <desc versionDate="2008-04-05" xml:lang="ja">デシベル。エネルギーの強さを示す。</desc>
-          <desc versionDate="2007-06-12" xml:lang="fr">Voir remarques, ci-dessous.</desc>
+          <desc versionDate="2007-06-12" xml:lang="fr">voir remarques, ci-dessous.</desc>
           <desc versionDate="2007-05-04" xml:lang="es">ver las notas a continuación</desc>
           <desc versionDate="2007-01-21" xml:lang="it">vedi note di seguito</desc>
         </valItem>
@@ -326,7 +319,7 @@ $Id$
           <desc versionDate="2007-05-02" xml:lang="zh-TW">2²⁰或1 048 576位元組</desc>
           <desc versionDate="2008-04-06" xml:lang="es">2²⁰ o 1 048 576 bytes</desc>
           <desc versionDate="2008-04-05" xml:lang="ja">メビバイト。1,048,576バイト(2の20乗bytes)のこと。</desc>
-          <desc versionDate="2008-03-30" xml:lang="fr"> 2²⁰ ou 1 048 576 octets</desc>
+          <desc versionDate="2008-03-30" xml:lang="fr">2²⁰ ou 1 048 576 octets</desc>
           <desc versionDate="2007-01-21" xml:lang="it">2²⁰ o 1 048 576 byte</desc>
         </valItem>
         <!--	<valItem ident="GB"><gloss>gigabyte</gloss><desc>10&#x2079; or 1&#x202F;000&#x202F;000&#x202F;000 bytes</desc></valItem>        
@@ -428,7 +421,7 @@ $Id$
 	measurement is of only one of them.</p>
       </remarks>
       <remarks xml:lang="fr" versionDate="2007-06-12">
-        <p> En général, si l'article est composé d'entités distinctes, la forme plurielle doit être employée, même si la mesure ne s'applique qu'à l'une d'entre elles.</p>
+        <p>En général, si l'article est composé d'entités distinctes, la forme plurielle doit être employée, même si la mesure ne s'applique qu'à l'une d'entre elles.</p>
       </remarks>
       <remarks xml:lang="es" versionDate="2008-04-06">
         <p>Generalmente cuando el material se compone de entidades discretas, se debe usar la forma plural, incluso cuando la medida se refiere solamente a una de ellas.</p>
@@ -494,8 +487,7 @@ baby?</l></egXML>
       </p>
     <p>
       当該単位は、一般には、国際単位系の標準的な略式表記で示されるべきで
-      ある。(詳細は、<ptr target="http://www.bipm.org/en/publications/si-brochure/"/>, 
-      <ptr target="http://physics.nist.gov/cuu/Units/"/>を参照のこと。)
+      ある。(詳細は、<ptr target="http://www.bipm.org/en/publications/si-brochure/"/>、<ptr target="http://physics.nist.gov/cuu/Units/"/>を参照のこと。)
       けれども、符号化する人は、非公式な計測単位、例えば、
       <val>lines</val>や<val>characters</val>も使用してもよい。
     </p>

@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-Copyright TEI Consortium. 
-Dual-licensed under CC-by and BSD2 licences 
-See the file COPYING.txt for details
-$Date$
-$Id$
--->
+<!-- © TEI Consortium. Dual-licensed under CC-by and BSD2 licenses; see the file COPYING.txt for details. -->
 <?xml-model href="https://jenkins.tei-c.org/job/TEIP5-dev/lastSuccessfulBuild/artifact/P5/release/xml/tei/odd/p5.nvdl" type="application/xml" schematypens="http://purl.oclc.org/dsdl/nvdl/ns/structure/1.0"?>
 <elementSpec xmlns="http://www.tei-c.org/ns/1.0" module="iso-fs" ident="binary">
   <gloss versionDate="2005-01-14" xml:lang="en">binary value</gloss>
@@ -14,6 +8,7 @@ $Id$
   <gloss versionDate="2007-06-12" xml:lang="fr">valeur binaire</gloss>
   <gloss versionDate="2007-05-04" xml:lang="es">valor binario</gloss>
   <gloss versionDate="2007-01-21" xml:lang="it">un valore binario</gloss>
+  <gloss versionDate="2023-09-21" xml:lang="ja">二値</gloss>
   <desc versionDate="2005-01-14" xml:lang="en">represents the value part of a feature-value specification which can contain either
   of exactly two possible values.</desc>
   <desc versionDate="2007-12-20" xml:lang="ko">정확히 두 가지 가능한 값 중 하나를 포함할 수 있는 자질-값 명세에서 값의 부분을 표시한다.</desc>
@@ -43,8 +38,10 @@ $Id$
 may be represented by the values <val>1</val> or
     <val>true</val>, or <val>0</val> or <val>false</val>.</p>
 </remarks>
+<remarks versionDate="2023-09-21" xml:lang="ja"><p>この属性は<ident type="datatype">teidata.truthValue</ident>のデータ型を持つ。
+  その値は、<val>1</val>か<val>true</val>、あるいは<val>0</val>か<val>false</val>で表現される。</p>
+</remarks>
     </attDef>
-
   </attList>
   <exemplum xml:lang="en">
     <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#UND">

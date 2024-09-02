@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-Copyright TEI Consortium. 
-Dual-licensed under CC-by and BSD2 licences 
-See the file COPYING.txt for details.
-$Date$
-$Id$
--->
+<!-- © TEI Consortium. Dual-licensed under CC-by and BSD2 licenses; see the file COPYING.txt for details. -->
 
 
 <?xml-model href="https://jenkins.tei-c.org/job/TEIP5-dev/lastSuccessfulBuild/artifact/P5/release/xml/tei/odd/p5.nvdl" type="application/xml" schematypens="http://purl.oclc.org/dsdl/nvdl/ns/structure/1.0"?>
@@ -821,7 +815,7 @@ Guidelines, to the possible problems which revision might pose for those
 who are already using this version of these Guidelines.  
 </p>
 <p>With TEI P5, a version numbering system is introduced following 
-  <ref target="http://unicode.org/versions/">the pattern specified by 
+  <ref target="https://unicode.org/versions/">the pattern specified by 
     the Unicode Consortium</ref>: the first digit identifies a major 
   version number, the second digit a minor version number, and the 
   third digit a sub-minor version number. The TEI undertakes that no 

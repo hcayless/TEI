@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-Copyright TEI Consortium. 
-Dual-licensed under CC-by and BSD2 licences 
-See the file COPYING.txt for details
-$Date$
-$Id$
--->
+<!-- © TEI Consortium. Dual-licensed under CC-by and BSD2 licenses; see the file COPYING.txt for details. -->
 <?xml-model href="https://jenkins.tei-c.org/job/TEIP5-dev/lastSuccessfulBuild/artifact/P5/release/xml/tei/odd/p5.nvdl" type="application/xml" schematypens="http://purl.oclc.org/dsdl/nvdl/ns/structure/1.0"?>
 <elementSpec xmlns="http://www.tei-c.org/ns/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" module="header" ident="biblFull">
   <gloss versionDate="2007-07-04" xml:lang="en">fully-structured bibliographic citation</gloss>
@@ -14,11 +8,12 @@ $Id$
   <gloss versionDate="2008-04-06" xml:lang="es">citación bibliográfica estructurada completa</gloss>
   <gloss versionDate="2008-03-30" xml:lang="fr">référence bibliographique totalement structurée</gloss>
   <gloss versionDate="2007-11-06" xml:lang="it">citazione bibliografica strutturata</gloss>
+  <gloss versionDate="2023-09-21" xml:lang="ja">完全に構造化された典拠情報</gloss>
   <desc versionDate="2005-01-14" xml:lang="en">contains a fully-structured bibliographic citation, in which all components of the TEI file
     description are present.</desc>
   <desc versionDate="2007-12-20" xml:lang="ko">완전히 구조화된 서지 정보를 포함하며, 그 안에 TEI 파일 기술의 모든 성분이 제시된다.</desc>
   <desc versionDate="2007-05-02" xml:lang="zh-TW">包含結構完整的書目資料，其中呈現出TEI檔案描述內的所有元件。</desc>
-  <desc versionDate="2008-04-05" xml:lang="ja">厳密な構造を持つ書誌情報を示す。TEIのファイル記述の全要素は、ここ に記述される。</desc>
+  <desc versionDate="2023-09-21" xml:lang="ja">完全に構造化された典拠情報を示す。TEIのファイル記述のための全要素が利用できる。</desc>
   <desc versionDate="2007-06-12" xml:lang="fr">contient une référence bibliographique totalement
     structurée : tous les composants de la description du fichier TEI  y sont présents.</desc>
   <desc versionDate="2007-05-04" xml:lang="es">contiene una cita bibliográfica completamente
@@ -32,6 +27,7 @@ $Id$
     <memberOf key="att.declarable"/>
     <memberOf key="att.sortable"/>
     <memberOf key="att.docStatus"/>
+    <memberOf key="att.cmc"/>
   </classes>
   <content>
     <alternate>

@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-Copyright TEI Consortium. 
-Dual-licensed under CC-by and BSD2 licences 
-See the file COPYING.txt for details
-$Date$
-$Id$
--->
+<!-- © TEI Consortium. Dual-licensed under CC-by and BSD2 licenses; see the file COPYING.txt for details. -->
 <?xml-model href="https://jenkins.tei-c.org/job/TEIP5-dev/lastSuccessfulBuild/artifact/P5/release/xml/tei/odd/p5.nvdl" type="application/xml" schematypens="http://purl.oclc.org/dsdl/nvdl/ns/structure/1.0"?>
 <elementSpec xmlns="http://www.tei-c.org/ns/1.0" ident="facsimile" module="transcr" xmlns:sch="http://purl.oclc.org/dsdl/schematron">
   <desc versionDate="2007-08-26" xml:lang="en">contains a representation of some written source in the form of
@@ -13,8 +7,7 @@ a set of images rather than as transcribed or encoded text.</desc>
   <desc versionDate="2007-12-20" xml:lang="ko">전사 또는 부호화된 텍스트 형태보다는 이미지 집합의 형태로 기록 원본의 표상을 포함한다.</desc>
   <desc versionDate="2008-04-06" xml:lang="es">contiene una representación de una cierta fuente escrita bajo la forma de conjunto de las imágenes algo que como texto transcrito o codificado.</desc>
   <desc versionDate="2008-04-06" xml:lang="ja">転記または符号化されたテキストではなく、画像データ中にある、書記資料の
-表現を示す。
-</desc>
+表現を示す。</desc>
   <desc versionDate="2009-11-16" xml:lang="fr">contient une représentation d'une source écrite
 quelconque sous la forme d'un ensemble d'images plutôt que sous la forme d'un texte transcrit
 ou encodé.</desc>
@@ -39,23 +32,24 @@ ou encodé.</desc>
     <constraint>
       <sch:rule context="tei:facsimile//tei:line | tei:facsimile//tei:zone">
         <sch:report test="child::text()[ normalize-space(.) ne '']">
-  	  A facsimile element represents a text with images, thus
-	  transcribed text should not be present within it.
-	</sch:report>
-        <!-- 
-             What about:
-             * ellipses/supplied/text()
-             * writing
-             * label, formula, app, witDetail, metamark?
-             * notatedMusic?
-             * figure/[all-sorts-of-crazy-stuff-e.g.-entry]
-             * addSpan, damageSpan, delSpan
-             Or the fact that <front> and <back> (but not <body>) are
-             permitted inside <facsimile>, and thus *anything* can be
-             inside ther?
-        -->
+          A facsimile element represents a text with images, thus
+          transcribed text should not be present within it.
+        </sch:report>
       </sch:rule>
     </constraint>
+    <!-- 
+         What about:
+         * ellipses/supplied/text()
+         * writing
+         * label, formula, app, witDetail, metamark?
+         * notatedMusic?
+         * figure/[all-sorts-of-crazy-stuff-e.g.-entry]
+         * addSpan, damageSpan, delSpan
+         Or the fact that <front> and <back> (but not <body>) are
+         permitted inside <facsimile>, and thus *anything* can be
+         inside ther?
+         See https://github.com/TEIC/TEI/issues/2363
+    -->
   </constraintSpec>
   <exemplum xml:lang="und">
     <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#UND">
