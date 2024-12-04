@@ -677,7 +677,8 @@
                   <gloss versionDate="2013-10-30" xml:lang="en">International Standard Book Number</gloss>
                 </valItem>
                 <valItem ident="URI">
-                  <gloss versionDate="2013-10-30" xml:lang="en">any form of web address (a URL or a URN)</gloss>
+                  <gloss versionDate="2024-12-04" xml:lang="en">Uniform Resource Identifier</gloss>
+		  <desc versionDate="2013-10-30" xml:lang="en">any form of web address (that is, a URL or a URN)</desc>
                 </valItem>
                 <valItem ident="URL">
                   <gloss versionDate="2024-12-04" xml:lang="en">Uniform Resource Locator</gloss>
